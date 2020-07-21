@@ -1,0 +1,2 @@
+tif:
+	mouse_click()
