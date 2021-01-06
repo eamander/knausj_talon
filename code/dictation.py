@@ -23,7 +23,7 @@ punctuation = {
     "-": "-",
     "/": "/",
     "-": "-",
-    ")": ")",
+    ")": ")"
 }
 
 no_space_after_these = set("-/(")

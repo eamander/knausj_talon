@@ -31,11 +31,11 @@ select from:
 	key(escape)
 	edit.up()	
 star: "*"
-from: insert("FROM ")
+state from: insert("FROM ")
 select star from: insert("SELECT * FROM ")
-where: "WHERE "
-group by: insert("GROUP BY ")
-order by: "ORDER BY "
+state where: "WHERE "
+state group by: insert("GROUP BY ")
+state order by: "ORDER BY "
 descending: " DESC"
 ascending: " ASC"
 set: 
@@ -51,9 +51,9 @@ inner join:
     key(left)
     key(left)
     key(left)
-like: 
+state like: 
 	insert("like '%%'")
 	key(left)
 	key(left)
-limit: "LIMIT "
+state limit: "LIMIT "
 	

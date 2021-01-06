@@ -1,4 +1,4 @@
-tick: "`"
+grave: "`"
 triptick: "```"
 empty dubtick:	
 	"``"

@@ -82,3 +82,12 @@ mod.apps.windows_power_shell = """
 os: windows
 and app.name: powershell.exe
 """
+
+apps.windows_rdp = """
+os: windows
+and app.name: Remote Desktop Connection
+os: windows
+and app.name: mstsc.exe 
+os: windows
+and app.name: RDPWin.exe 
+"""

@@ -1,3 +1,7 @@
+mode: user.python
+mode: command
+and code.language: python
+-
 definite: insert("def __init__()")
 state not: insert(" not ")
 state not in: insert(" not in ")
