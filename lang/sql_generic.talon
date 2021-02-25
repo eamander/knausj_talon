@@ -43,6 +43,7 @@ set:
 	key(left)
 	key(left)
 dot i d: ".id"
+state null: "NULL"
 is not null: " IS NOT NULL"
 is null: " IS NULL"
 inner join:
